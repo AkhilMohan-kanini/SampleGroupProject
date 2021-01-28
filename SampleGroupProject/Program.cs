@@ -10,7 +10,11 @@ namespace SampleGroupProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"Hello Friend !! \nAdd your code here !!");
+            Console.WriteLine($"Hello Friend !!");
+            Console.WriteLine("Please enter your name");
+            string name = Console.ReadLine();
+
+            Console.WriteLine("Thanks for entering {0}",name);
             Console.ReadKey();
         }
     }
