@@ -15,6 +15,8 @@ namespace SampleGroupProject
             string name = Console.ReadLine();
 
             Console.WriteLine("Thanks for entering {0}",name);
+            
+            Console.WriteLine("{0}, Welcome to Github", name);
             Console.ReadKey();
         }
     }
